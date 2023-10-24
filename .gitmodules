@@ -94,3 +94,6 @@
 [submodule "Meta_Trend"]
 	path = Meta_Trend
 	url = https://github.com/EA31337/Strategy-Meta_Trend.git
+[submodule "Meta_Trio"]
+	path = Meta_Trio
+	url = https://github.com/EA31337/Strategy-Meta_Trio.git
