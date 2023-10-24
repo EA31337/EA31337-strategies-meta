@@ -106,7 +106,6 @@ IF ANY, OF CERTAIN MARKET FACTORS, SUCH AS LACK OF LIQUIDITY. SIMULATED TRADING 
 ARE ALSO SUBJECT TO THE FACT THAT THEY ARE DESIGNED WITH THE BENEFIT OF HINDSIGHT.
 NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PROFIT OR LOSSES SIMILAR TO THOSE SHOWN.
 
-
 <!-- Named links -->
 
 [gh-discuss-badge]: https://img.shields.io/badge/Discussions-Q&A-blue.svg?logo=github
@@ -138,4 +137,3 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 
 [license-image]: https://img.shields.io/github/license/EA31337/EA31337-strategies-meta.svg
 [license-link]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
-
