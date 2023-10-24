@@ -25,3 +25,6 @@
 [submodule "Meta_Hedge"]
 	path = Meta_Hedge
 	url = https://github.com/EA31337/Strategy-Meta_Hedge.git
+[submodule "Meta_Limit"]
+	path = Meta_Limit
+	url = https://github.com/EA31337/Strategy-Meta_Limit.git
