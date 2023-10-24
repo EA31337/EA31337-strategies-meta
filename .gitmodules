@@ -70,3 +70,6 @@
 [submodule "Meta_Resistance"]
 	path = Meta_Resistance
 	url = https://github.com/EA31337/Strategy-Meta_Resistance.git
+[submodule "Meta_Reversal"]
+	path = Meta_Reversal
+	url = https://github.com/EA31337/Strategy-Meta_Reversal.git
