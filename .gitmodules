@@ -100,3 +100,6 @@
 [submodule "Meta_Weekday"]
 	path = Meta_Weekday
 	url = https://github.com/EA31337/Strategy-Meta_Weekday.git
+[submodule "Meta_Volatility"]
+	path = Meta_Volatility
+	url = https://github.com/EA31337/Strategy-Meta_Volatility.git
