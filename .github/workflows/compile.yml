@@ -1,0 +1,120 @@
+---
+name: Compile
+
+# yamllint disable-line rule:truthy
+on:
+  pull_request:
+    branches:
+      - 'master'
+      - '*dev*'
+    paths-ignore:
+      - '*.md'
+      - '.git*'
+      - 'docs/**'
+  push:
+    branches:
+      - 'master'
+      - '*dev*'
+    paths-ignore:
+      - '*.md'
+      - '.git*'
+      - 'docs/**'
+
+jobs:
+  Compile-MQL4:
+    defaults:
+      run:
+        shell: powershell
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - uses: actions/checkout@v3
+        with:
+          path: Include/EA31337-classes
+          ref: v3.000.1
+          repository: EA31337/EA31337-classes
+      - uses: actions/checkout@v3
+        with:
+          path: Include/EA31337-strategies
+          ref: v2.000-dev
+          repository: EA31337/EA31337-strategies
+          submodules: recursive
+      - name: Compile for MQL4
+        uses: fx31337/mql-compile-action@master
+        with:
+          include: .
+          mt-version: 5.0.0.2361
+          path: "*/Stg_*.mq4"
+          verbose: true
+      - name: List compiled files
+        run: '(Get-ChildItem -Recurse -Path . -Include *.ex[45]).fullname'
+      - run: Get-Location
+  Compile-MQL5:
+    defaults:
+      run:
+        shell: powershell
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - uses: actions/checkout@v3
+        with:
+          path: Include/EA31337-classes
+          ref: v3.000.1
+          repository: EA31337/EA31337-classes
+      - uses: actions/checkout@v3
+        with:
+          path: Include/EA31337-strategies
+          ref: v2.000-dev
+          repository: EA31337/EA31337-strategies
+          submodules: recursive
+      - name: Compile for MQL5
+        uses: fx31337/mql-compile-action@master
+        with:
+          include: .
+          mt-version: 5.0.0.2515
+          path: "*/Stg_*.mq5"
+          verbose: true
+      - name: List compiled files
+        run: '(Get-ChildItem -Recurse -Path . -Include *.ex[45]).fullname'
+      - run: Get-Location
+  Compile-Test:
+    defaults:
+      run:
+        shell: powershell
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+      - uses: actions/checkout@v3
+        with:
+          path: Include/EA31337-classes
+          ref: v3.000.1
+          repository: EA31337/EA31337-classes
+      - uses: actions/checkout@v3
+        with:
+          path: Include/EA31337-strategies
+          ref: v2.000-dev
+          repository: EA31337/EA31337-strategies
+          submodules: recursive
+      - name: Compile for MQL4
+        uses: fx31337/mql-compile-action@master
+        with:
+          include: .
+          mt-version: 5.0.0.2361
+          path: ./.github/Test.mq4
+          verbose: true
+      - name: Compile for MQL5
+        uses: fx31337/mql-compile-action@master
+        with:
+          include: .
+          mt-version: 5.0.0.2515
+          path: ./.github/Test.mq5
+          verbose: true
+      - name: List compiled files
+        run: '(Get-ChildItem -Recurse -Path . -Include *.ex[45]).fullname'
+      - run: Get-Location
