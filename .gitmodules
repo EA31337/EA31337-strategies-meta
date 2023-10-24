@@ -43,3 +43,6 @@
 [submodule "Meta_Multi"]
 	path = Meta_Multi
 	url = https://github.com/EA31337/Strategy-Meta_Multi.git
+[submodule "Meta_Multi_Currency"]
+	path = Meta_Multi_Currency
+	url = https://github.com/EA31337/Strategy-Meta_Multi_Currency.git
