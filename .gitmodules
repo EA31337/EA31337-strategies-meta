@@ -13,3 +13,6 @@
 [submodule "Meta_Equity"]
 	path = Meta_Equity
 	url = https://github.com/EA31337/Strategy-Meta_Equity.git
+[submodule "Meta_Enhance"]
+	path = Meta_Enhance
+	url = https://github.com/EA31337/Strategy-Meta_Enhance.git
