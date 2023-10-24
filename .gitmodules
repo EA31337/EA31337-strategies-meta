@@ -67,3 +67,6 @@
 [submodule "Meta_Profit"]
 	path = Meta_Profit
 	url = https://github.com/EA31337/Strategy-Meta_Profit.git
+[submodule "Meta_Resistance"]
+	path = Meta_Resistance
+	url = https://github.com/EA31337/Strategy-Meta_Resistance.git
