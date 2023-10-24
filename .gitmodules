@@ -37,3 +37,6 @@
 [submodule "Meta_Martingale"]
 	path = Meta_Martingale
 	url = https://github.com/EA31337/Strategy-Meta_Martingale.git
+[submodule "Meta_Mirror"]
+	path = Meta_Mirror
+	url = https://github.com/EA31337/Strategy-Meta_Mirror.git
