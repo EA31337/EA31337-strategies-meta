@@ -16,3 +16,6 @@
 [submodule "Meta_Enhance"]
 	path = Meta_Enhance
 	url = https://github.com/EA31337/Strategy-Meta_Enhance.git
+[submodule "Meta_Formation"]
+	path = Meta_Formation
+	url = https://github.com/EA31337/Strategy-Meta_Formation.git
