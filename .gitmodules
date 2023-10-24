@@ -4,3 +4,6 @@
 [submodule "Meta_Conditions"]
 	path = Meta_Conditions
 	url = https://github.com/EA31337/Strategy-Meta_Conditions.git
+[submodule "Meta_Delegate"]
+	path = Meta_Delegate
+	url = https://github.com/EA31337/Strategy-Meta_Delegate.git
