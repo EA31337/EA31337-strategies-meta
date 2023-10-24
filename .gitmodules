@@ -40,3 +40,6 @@
 [submodule "Meta_Mirror"]
 	path = Meta_Mirror
 	url = https://github.com/EA31337/Strategy-Meta_Mirror.git
+[submodule "Meta_Multi"]
+	path = Meta_Multi
+	url = https://github.com/EA31337/Strategy-Meta_Multi.git
