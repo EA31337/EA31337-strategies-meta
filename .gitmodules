@@ -55,3 +55,6 @@
 [submodule "Meta_Oscillator_Filter"]
 	path = Meta_Oscillator_Filter
 	url = https://github.com/EA31337/Strategy-Meta_Oscillator_Filter.git
+[submodule "Meta_Oscillator_Switch"]
+	path = Meta_Oscillator_Switch
+	url = https://github.com/EA31337/Strategy-Meta_Oscillator_Switch.git
