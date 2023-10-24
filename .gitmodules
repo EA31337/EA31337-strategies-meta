@@ -76,3 +76,6 @@
 [submodule "Meta_Risk"]
 	path = Meta_Risk
 	url = https://github.com/EA31337/Strategy-Meta_Risk.git
+[submodule "Meta_RSI"]
+	path = Meta_RSI
+	url = https://github.com/EA31337/Strategy-Meta_RSI.git
