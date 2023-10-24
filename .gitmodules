@@ -91,3 +91,6 @@
 [submodule "Meta_Timezone"]
 	path = Meta_Timezone
 	url = https://github.com/EA31337/Strategy-Meta_Timezone.git
+[submodule "Meta_Trend"]
+	path = Meta_Trend
+	url = https://github.com/EA31337/Strategy-Meta_Trend.git
