@@ -48,6 +48,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 
 | Strategy | Check | Compile | Backtest |
 | --------:|:-----:|:-------:|:--------:|
+| (Meta) Bears & Bulls | [![check][ghim_s_meta_bears_bulls_check]][ghlm_s_meta_bears_bulls_check] | [![check][ghim_s_meta_bears_bulls_compile]][ghlm_s_meta_bears_bulls_compile] | [![check][ghim_s_meta_bears_bulls_bt]][ghlm_s_meta_bears_bulls_bt] |
 | (Meta) Double | [![check][ghim_s_meta_double_check]][ghlm_s_meta_double_check] | [![check][ghim_s_meta_double_compile]][ghlm_s_meta_double_compile] | [![check][ghim_s_meta_double_bt]][ghlm_s_meta_double_bt] |
 | (Meta) Conditions | [![check][ghim_s_meta_conditions_check]][ghlm_s_meta_conditions_check] | [![check][ghim_s_meta_conditions_compile]][ghlm_s_meta_conditions_compile] | [![check][ghim_s_meta_conditions_bt]][ghlm_s_meta_conditions_bt] |
 | (Meta) Enhance | [![check][ghim_s_meta_enhance_check]][ghlm_s_meta_enhance_check] | [![check][ghim_s_meta_enhance_compile]][ghlm_s_meta_enhance_compile] | [![check][ghim_s_meta_enhance_bt]][ghlm_s_meta_enhance_bt] |
@@ -86,6 +87,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 
 | Strategy | Check | Compile | Backtest |
 | --------:|:-----:|:-------:|:--------:|
+| (Meta) Bears & Bulls | [![check][ghid_s_meta_bears_bulls_check]][ghld_s_meta_bears_bulls_check] | [![check][ghid_s_meta_bears_bulls_compile]][ghld_s_meta_bears_bulls_compile] | [![check][ghid_s_meta_bears_bulls_bt]][ghld_s_meta_bears_bulls_bt] |
 | (Meta) Double | [![check][ghid_s_meta_double_check]][ghld_s_meta_double_check] | [![check][ghid_s_meta_double_compile]][ghld_s_meta_double_compile] | [![check][ghid_s_meta_double_bt]][ghld_s_meta_double_bt] |
 | (Meta) Conditions | [![check][ghid_s_meta_conditions_check]][ghld_s_meta_conditions_check] | [![check][ghid_s_meta_conditions_compile]][ghld_s_meta_conditions_compile] | [![check][ghid_s_meta_conditions_bt]][ghld_s_meta_conditions_bt] |
 | (Meta) Enhance | [![check][ghid_s_meta_enhance_check]][ghld_s_meta_enhance_check] | [![check][ghid_s_meta_enhance_compile]][ghld_s_meta_enhance_compile] | [![check][ghid_s_meta_enhance_bt]][ghld_s_meta_enhance_bt] |
@@ -215,6 +217,20 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 
 [license-image]: https://img.shields.io/github/license/EA31337/EA31337-strategies-meta.svg
 [license-link]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
+
+[ghlm_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml
+[ghim_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml
+[ghim_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml
+[ghim_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/workflows/Check/badge.svg?branch=dev
+[ghld_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/workflows/Compile/badge.svg?branch=dev
+[ghld_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml/badge.svg?branch=dev
 
 [ghlm_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml
 [ghim_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml/badge.svg
