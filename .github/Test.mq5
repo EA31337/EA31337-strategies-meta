@@ -33,9 +33,11 @@
 // Includes strategy classes.
 #include <EA31337-strategies/enum.h>
 #include <EA31337-strategies/includes.h>
+#include <EA31337-strategies/manager.h>
 
 // Local includes.
 #include "../enum.h"
 #include "../includes.h"
+#include "../manager.h"
 
 int OnInit() { return INIT_SUCCEEDED; }

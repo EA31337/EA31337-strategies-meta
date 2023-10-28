@@ -48,6 +48,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 
 | Strategy | Check | Compile | Backtest |
 | --------:|:-----:|:-------:|:--------:|
+| (Meta) Bears & Bulls | [![check][ghim_s_meta_bears_bulls_check]][ghlm_s_meta_bears_bulls_check] | [![check][ghim_s_meta_bears_bulls_compile]][ghlm_s_meta_bears_bulls_compile] | [![check][ghim_s_meta_bears_bulls_bt]][ghlm_s_meta_bears_bulls_bt] |
 | (Meta) Double | [![check][ghim_s_meta_double_check]][ghlm_s_meta_double_check] | [![check][ghim_s_meta_double_compile]][ghlm_s_meta_double_compile] | [![check][ghim_s_meta_double_bt]][ghlm_s_meta_double_bt] |
 | (Meta) Conditions | [![check][ghim_s_meta_conditions_check]][ghlm_s_meta_conditions_check] | [![check][ghim_s_meta_conditions_compile]][ghlm_s_meta_conditions_compile] | [![check][ghim_s_meta_conditions_bt]][ghlm_s_meta_conditions_bt] |
 | (Meta) Enhance | [![check][ghim_s_meta_enhance_check]][ghlm_s_meta_enhance_check] | [![check][ghim_s_meta_enhance_compile]][ghlm_s_meta_enhance_compile] | [![check][ghim_s_meta_enhance_bt]][ghlm_s_meta_enhance_bt] |
@@ -86,6 +87,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 
 | Strategy | Check | Compile | Backtest |
 | --------:|:-----:|:-------:|:--------:|
+| (Meta) Bears & Bulls | [![check][ghid_s_meta_bears_bulls_check]][ghld_s_meta_bears_bulls_check] | [![check][ghid_s_meta_bears_bulls_compile]][ghld_s_meta_bears_bulls_compile] | [![check][ghid_s_meta_bears_bulls_bt]][ghld_s_meta_bears_bulls_bt] |
 | (Meta) Double | [![check][ghid_s_meta_double_check]][ghld_s_meta_double_check] | [![check][ghid_s_meta_double_compile]][ghld_s_meta_double_compile] | [![check][ghid_s_meta_double_bt]][ghld_s_meta_double_bt] |
 | (Meta) Conditions | [![check][ghid_s_meta_conditions_check]][ghld_s_meta_conditions_check] | [![check][ghid_s_meta_conditions_compile]][ghld_s_meta_conditions_compile] | [![check][ghid_s_meta_conditions_bt]][ghld_s_meta_conditions_bt] |
 | (Meta) Enhance | [![check][ghid_s_meta_enhance_check]][ghld_s_meta_enhance_check] | [![check][ghid_s_meta_enhance_compile]][ghld_s_meta_enhance_compile] | [![check][ghid_s_meta_enhance_bt]][ghld_s_meta_enhance_bt] |
@@ -197,10 +199,10 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [gh-tag-image]: https://img.shields.io/github/tag/EA31337/EA31337-strategies-meta.svg?logo=github
 [gh-tag-link]: https://github.com/EA31337/EA31337-strategies-meta/tags
 
-[gha-link-check-master]: https://github.com/EA31337/EA31337-strategies-meta/actions?query=workflow:Check+branch%3Amaster
-[gha-image-check-master]: https://github.com/EA31337/EA31337-strategies-meta/workflows/Check/badge.svg?branch=master
-[gha-link-compile-master]: https://github.com/EA31337/EA31337-strategies-meta/actions?query=workflow:Compile+branch%3Amaster
-[gha-image-compile-master]: https://github.com/EA31337/EA31337-strategies-meta/workflows/Compile/badge.svg?branch=master
+[gha-link-check-master]: https://github.com/EA31337/EA31337-strategies-meta/actions/workflows/check.yml
+[gha-image-check-master]: https://github.com/EA31337/EA31337-strategies-meta/actions/workflows/check.yml/badge.svg
+[gha-link-compile-master]: https://github.com/EA31337/EA31337-strategies-meta/actions/workflows/compile.yml
+[gha-image-compile-master]: https://github.com/EA31337/EA31337-strategies-meta/actions/workflows/compile.yml/badge.svg
 
 [gh-repo-classes]: https://github.com/EA31337/EA31337-classes
 [gh-repo-indi-common]: https://github.com/EA31337/EA31337-indicators-common
@@ -216,464 +218,478 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [license-image]: https://img.shields.io/github/license/EA31337/EA31337-strategies-meta.svg
 [license-link]: https://tldrlegal.com/license/gnu-general-public-license-v3-(gpl-3)
 
-[ghlm_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions?query=workflow:Check+branch:master
-[ghim_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions?query=workflow:Check+branch:master
-[ghim_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions?query=workflow:Check+branch:master
-[ghim_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions?query=workflow:Check+branch:master
-[ghim_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions?query=workflow:Check+branch:master
-[ghim_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions?query=workflow:Check+branch:master
-[ghim_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions?query=workflow:Check+branch:master
-[ghim_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions?query=workflow:Check+branch:master
-[ghim_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions?query=workflow:Check+branch:master
-[ghim_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions?query=workflow:Check+branch:master
-[ghim_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions?query=workflow:Check+branch:master
-[ghim_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions?query=workflow:Check+branch:master
-[ghim_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions?query=workflow:Check+branch:master
-[ghim_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions?query=workflow:Check+branch:master
-[ghim_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions?query=workflow:Check+branch:master
-[ghim_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions?query=workflow:Check+branch:master
-[ghim_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions?query=workflow:Check+branch:master
-[ghim_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions?query=workflow:Check+branch:master
-[ghim_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions?query=workflow:Check+branch:master
-[ghim_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions?query=workflow:Check+branch:master
-[ghim_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions?query=workflow:Check+branch:master
-[ghim_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions?query=workflow:Check+branch:master
-[ghim_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions?query=workflow:Check+branch:master
-[ghim_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions?query=workflow:Check+branch:master
-[ghim_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions?query=workflow:Check+branch:master
-[ghim_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions?query=workflow:Check+branch:master
-[ghim_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions?query=workflow:Check+branch:master
-[ghim_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions?query=workflow:Check+branch:master
-[ghim_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions?query=workflow:Check+branch:master
-[ghim_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions?query=workflow:Check+branch:master
-[ghim_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions?query=workflow:Check+branch:master
-[ghim_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions?query=workflow:Check+branch:master
-[ghim_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Backtest/badge.svg?branch=dev
-
-[ghlm_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions?query=workflow:Check+branch:master
-[ghim_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Check/badge.svg?branch=master
-[ghlm_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions?query=workflow:Compile+branch:master
-[ghim_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Compile/badge.svg?branch=master
-[ghlm_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions?query=workflow:Backtest+branch:master
-[ghim_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Backtest/badge.svg?branch=master
-
-[ghld_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions?query=workflow:Check+branch:dev
-[ghid_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Check/badge.svg?branch=dev
-[ghld_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions?query=workflow:Compile+branch:dev
-[ghid_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Compile/badge.svg?branch=dev
-[ghld_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions?query=workflow:Backtest+branch:dev
-[ghid_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Backtest/badge.svg?branch=dev
+[ghlm_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml
+[ghim_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml
+[ghim_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml
+[ghim_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml
+[ghim_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/compile.yml
+[ghim_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml
+[ghim_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/check.yml
+[ghim_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/compile.yml
+[ghim_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml
+[ghim_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/check.yml
+[ghim_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/compile.yml
+[ghim_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml
+[ghim_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/check.yml
+[ghim_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/compile.yml
+[ghim_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml
+[ghim_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/check.yml
+[ghim_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/compile.yml
+[ghim_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml
+[ghim_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/check.yml
+[ghim_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/compile.yml
+[ghim_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml
+[ghim_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/check.yml
+[ghim_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/compile.yml
+[ghim_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml
+[ghim_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/check.yml
+[ghim_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml
+[ghim_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml
+[ghim_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml
+[ghim_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/compile.yml
+[ghim_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml
+[ghim_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/check.yml
+[ghim_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/compile.yml
+[ghim_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml
+[ghim_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/check.yml
+[ghim_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/compile.yml
+[ghim_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml
+[ghim_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/check.yml
+[ghim_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/compile.yml
+[ghim_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml
+[ghim_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/check.yml
+[ghim_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/compile.yml
+[ghim_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml
+[ghim_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/check.yml
+[ghim_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/compile.yml
+[ghim_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml
+[ghim_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/check.yml
+[ghim_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml
+[ghim_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml
+[ghim_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml
+[ghim_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml
+[ghim_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml
+[ghim_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml
+[ghim_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/compile.yml
+[ghim_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml
+[ghim_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/check.yml
+[ghim_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/compile.yml
+[ghim_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml
+[ghim_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/check.yml
+[ghim_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/compile.yml
+[ghim_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml
+[ghim_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/check.yml
+[ghim_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/compile.yml
+[ghim_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml
+[ghim_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/check.yml
+[ghim_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/compile.yml
+[ghim_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml
+[ghim_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/check.yml
+[ghim_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml
+[ghim_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml
+[ghim_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml
+[ghim_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/compile.yml
+[ghim_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml
+[ghim_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/check.yml
+[ghim_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/compile.yml
+[ghim_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml
+[ghim_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/check.yml
+[ghim_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/compile.yml
+[ghim_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml
+[ghim_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/check.yml
+[ghim_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/compile.yml
+[ghim_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml
+[ghim_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/check.yml
+[ghim_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/compile.yml
+[ghim_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml
+[ghim_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/check.yml
+[ghim_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/compile.yml
+[ghim_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml
+[ghim_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/check.yml
+[ghim_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/compile.yml
+[ghim_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml
+[ghim_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/check.yml
+[ghim_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/compile.yml
+[ghim_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml
+[ghim_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/check.yml
+[ghim_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/compile.yml
+[ghim_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml
+[ghim_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/check.yml
+[ghim_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/compile.yml
+[ghim_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml
+[ghim_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/check.yml
+[ghim_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml
+[ghim_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml
+[ghim_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml/badge.svg?branch=dev
