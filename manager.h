@@ -24,10 +24,41 @@
 #define STRATEGIES_META_MANAGER_H
 
 class StrategiesMetaManager {
- protected:
-  DictStruct<long, Ref<Strategy>> strats;
-
  public:
+  /**
+   * Initialize strategy with the specific timeframe.
+   *
+   * @param
+   *   _tf - timeframe to initialize
+   *
+   * @return
+   *   Returns strategy pointer on successful initialization, otherwise NULL.
+   */
+  template <typename SClass>
+  static Strategy* StrategyInit(ENUM_TIMEFRAMES _tf) {
+    return ((SClass*)NULL).Init(_tf);
+  }
+
+  /**
+   * Initialize strategy by enum type.
+   *
+   * @param
+   *   _sid - Strategy type
+   *
+   * @return
+   *   Returns strategy pointer on successful initialization, otherwise NULL.
+   */
+  static Strategy* StrategyInitByEnum(ENUM_STRATEGY_META _sid, ENUM_TIMEFRAMES _tf = PERIOD_CURRENT) {
+    switch (_sid) {
+      case STRAT_META_BEARS_BULLS:
+        return StrategyInit<Stg_Meta_Bears_Bulls>(_tf);
+      default:
+      case STRAT_META_NONE:
+        break;
+    }
+
+    return NULL;
+  }
 };
 
 #endif  // STRATEGIES_META_MANAGER_H
