@@ -9,34 +9,25 @@
  *  it under the terms of the GNU General Public License as published by
  *  the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
-
+ *
  *  This program is distributed in the hope that it will be useful,
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  *  GNU General Public License for more details.
-
+ *
  *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ *  along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-// Includes EA framework.
-#include <EA31337-classes/EA.mqh>
-#include <EA31337-classes/Pattern.mqh>
+// Prevents processing this includes file multiple times.
+#ifndef STRATEGIES_META_MANAGER_H
+#define STRATEGIES_META_MANAGER_H
 
-// Includes indicator classes.
-#include <EA31337-classes/Indicators/Bitwise/indicators.h>
-#include <EA31337-classes/Indicators/OHLC/indicators.h>
-#include <EA31337-classes/Indicators/Price/indicators.h>
-#include <EA31337-classes/Indicators/Special/indicators.h>
-#include <EA31337-classes/Indicators/indicators.h>
+class StrategiesMetaManager {
+ protected:
+  DictStruct<long, Ref<Strategy>> strats;
 
-// Includes strategy classes.
-#include <EA31337-strategies/enum.h>
-#include <EA31337-strategies/includes.h>
+ public:
+};
 
-// Local includes.
-#include "../enum.h"
-#include "../includes.h"
-#include "../manager.h"
-
-int OnInit() { return INIT_SUCCEEDED; }
+#endif  // STRATEGIES_META_MANAGER_H
