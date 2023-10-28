@@ -226,9 +226,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_bears_bulls_check]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_bears_bulls_compile]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_bears_bulls_bt]: https://github.com/EA31337/Strategy-Meta_Bears_Bulls/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -240,9 +240,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_double_check]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_double_compile]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_double_bt]: https://github.com/EA31337/Strategy-Meta_Double/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -254,9 +254,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_conditions_check]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Conditions/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -268,9 +268,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_enhance_check]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_enhance_compile]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_enhance_bt]: https://github.com/EA31337/Strategy-Meta_Enhance/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -282,9 +282,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_equity_check]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_equity_compile]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_equity_bt]: https://github.com/EA31337/Strategy-Meta_Equity/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -296,9 +296,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_formation_check]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_formation_compile]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_formation_bt]: https://github.com/EA31337/Strategy-Meta_Formation/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -310,9 +310,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_interval_check]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_interval_compile]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_interval_bt]: https://github.com/EA31337/Strategy-Meta_Interval/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -324,9 +324,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_hedge_check]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_hedge_compile]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_hedge_bt]: https://github.com/EA31337/Strategy-Meta_Hedge/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -338,9 +338,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_limit_check]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -352,9 +352,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_ma_cross_compile]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_ma_cross_bt]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -366,9 +366,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_margin_check]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_margin_compile]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_margin_bt]: https://github.com/EA31337/Strategy-Meta_Margin/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -380,9 +380,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_martingale_check]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_martingale_compile]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_martingale_bt]: https://github.com/EA31337/Strategy-Meta_Martingale/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -394,9 +394,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_mirror_check]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_mirror_compile]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_mirror_bt]: https://github.com/EA31337/Strategy-Meta_Mirror/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -408,9 +408,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_multi_check]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_multi_compile]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_multi_bt]: https://github.com/EA31337/Strategy-Meta_Multi/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -422,9 +422,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_multi_currency_check]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_multi_currency_compile]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_multi_currency_bt]: https://github.com/EA31337/Strategy-Meta_Multi_Currency/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -436,9 +436,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_news_check]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -450,9 +450,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -464,9 +464,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_oscillator_filter_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_oscillator_filter_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -478,9 +478,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_oscillator_switch_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_oscillator_switch_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_oscillator_switch_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Switch/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -492,9 +492,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_resistance_check]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_resistance_compile]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_resistance_bt]: https://github.com/EA31337/Strategy-Meta_Resistance/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -506,9 +506,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_reversal_check]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_reversal_compile]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_reversal_bt]: https://github.com/EA31337/Strategy-Meta_Reversal/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -520,9 +520,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_pattern_check]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_pattern_compile]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_pattern_bt]: https://github.com/EA31337/Strategy-Meta_Pattern/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -534,9 +534,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_pivot_check]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -548,9 +548,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_profit_compile]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_profit_bt]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -562,9 +562,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_risk_check]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_risk_compile]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_risk_bt]: https://github.com/EA31337/Strategy-Meta_Risk/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -576,9 +576,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_rsi_check]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_rsi_compile]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_rsi_bt]: https://github.com/EA31337/Strategy-Meta_RSI/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -590,9 +590,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_scalper_check]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_scalper_compile]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_scalper_bt]: https://github.com/EA31337/Strategy-Meta_Scalper/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -604,9 +604,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_signal_switch_check]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_signal_switch_compile]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_signal_switch_bt]: https://github.com/EA31337/Strategy-Meta_Signal_Switch/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -618,9 +618,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_spread_check]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_spread_compile]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_spread_bt]: https://github.com/EA31337/Strategy-Meta_Spread/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -632,9 +632,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_timezone_check]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_timezone_compile]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_timezone_bt]: https://github.com/EA31337/Strategy-Meta_Timezone/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -646,9 +646,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_trend_check]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_trend_compile]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_trend_bt]: https://github.com/EA31337/Strategy-Meta_Trend/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -660,9 +660,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_trio_check]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_trio_compile]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_trio_bt]: https://github.com/EA31337/Strategy-Meta_Trio/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -674,9 +674,9 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_volatility_check]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_volatility_compile]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_volatility_bt]: https://github.com/EA31337/Strategy-Meta_Volatility/actions/workflows/backtest.yml/badge.svg?branch=dev
 
@@ -688,8 +688,8 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghim_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml/badge.svg
 
 [ghld_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/check.yml?branch=dev
-[ghid_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Check/badge.svg?branch=dev
+[ghid_s_meta_weekday_check]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/check.yml/badge.svg?branch=dev
 [ghld_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml?branch=dev
-[ghid_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/workflows/Compile/badge.svg?branch=dev
+[ghid_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/backtest.yml/badge.svg?branch=dev
