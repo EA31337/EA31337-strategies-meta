@@ -22,23 +22,26 @@
 #ifndef ENUM_STRATEGY_META_DEFINED
 // Defines enum with supported meta strategy list.
 enum ENUM_STRATEGY_META {
-  STRAT_META_NONE = 0,           // (None)
-  STRAT_META_BEARS_BULLS,        // (Meta) Bears & Bulls
-  STRAT_META_DOUBLE,             // (Meta) Double
-  STRAT_META_CONDITIONS,         // (Meta) Conditions
-  STRAT_META_ENHANCE,            // (Meta) Enhance
-  STRAT_META_EQUITY,             // (Meta) Equity
-  STRAT_META_FORMATION,          // (Meta) Formation
-  STRAT_META_INTERVAL,           // (Meta) Interval
-  STRAT_META_HEDGE,              // (Meta) Hedge
-  STRAT_META_LIMIT,              // (Meta) Limit
-  STRAT_META_MA_CROSS,           // (Meta) MA Cross
-  STRAT_META_MARGIN,             // (Meta) Margin
-  STRAT_META_MARTINGALE,         // (Meta) Martingale
-  STRAT_META_MIRROR,             // (Meta) Mirror
-  STRAT_META_MULTI,              // (Meta) Multi
-  STRAT_META_MULTI_CURRENCY,     // (Meta) Multi Currency
-  STRAT_META_NEWS,               // (Meta) News
+  STRAT_META_NONE = 0,        // (None)
+  STRAT_META_BEARS_BULLS,     // (Meta) Bears & Bulls
+  STRAT_META_DOUBLE,          // (Meta) Double
+  STRAT_META_CONDITIONS,      // (Meta) Conditions
+  STRAT_META_ENHANCE,         // (Meta) Enhance
+  STRAT_META_EQUITY,          // (Meta) Equity
+  STRAT_META_FORMATION,       // (Meta) Formation
+  STRAT_META_INTERVAL,        // (Meta) Interval
+  STRAT_META_HEDGE,           // (Meta) Hedge
+  STRAT_META_LIMIT,           // (Meta) Limit
+  STRAT_META_MA_CROSS,        // (Meta) MA Cross
+  STRAT_META_MARGIN,          // (Meta) Margin
+  STRAT_META_MARTINGALE,      // (Meta) Martingale
+  STRAT_META_MIRROR,          // (Meta) Mirror
+  STRAT_META_MULTI,           // (Meta) Multi
+  STRAT_META_MULTI_CURRENCY,  // (Meta) Multi Currency
+#ifdef __MQL5__
+  // Supported for MQL5 only.
+  STRAT_META_NEWS,  // (Meta) News
+#endif
   STRAT_META_ORDER_LIMIT,        // (Meta) Order Limit
   STRAT_META_OSCILLATOR_FILTER,  // (Meta) Oscillator Filter
   STRAT_META_OSCILLATOR_SWITCH,  // (Meta) Oscillator Switch
