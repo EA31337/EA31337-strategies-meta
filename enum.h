@@ -24,6 +24,7 @@
 enum ENUM_STRATEGY_META {
   STRAT_META_NONE = 0,        // (None)
   STRAT_META_BEARS_BULLS,     // (Meta) Bears & Bulls
+  STRAT_META_DISCREPANCY,     // (Meta) Discrepancy
   STRAT_META_DOUBLE,          // (Meta) Double
   STRAT_META_CONDITIONS,      // (Meta) Conditions
   STRAT_META_ENHANCE,         // (Meta) Enhance

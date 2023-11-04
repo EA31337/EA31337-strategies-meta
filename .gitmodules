@@ -7,6 +7,9 @@
 [submodule "Meta_Delegate"]
 	path = Meta_Delegate
 	url = https://github.com/EA31337/Strategy-Meta_Delegate.git
+[submodule "Meta_Discrepancy"]
+	path = Meta_Discrepancy
+	url = https://github.com/EA31337/Strategy-Meta_Discrepancy.git
 [submodule "Meta_Double"]
 	path = Meta_Double
 	url = https://github.com/EA31337/Strategy-Meta_Double.git

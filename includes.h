@@ -22,6 +22,7 @@
 // Includes strategy meta classes.
 #include "Meta_Bears_Bulls/Stg_Meta_Bears_Bulls.mqh"
 #include "Meta_Conditions/Stg_Meta_Conditions.mqh"
+#include "Meta_Discrepancy/Stg_Meta_Discrepancy.mqh"
 #include "Meta_Double/Stg_Meta_Double.mqh"
 #include "Meta_Enhance/Stg_Meta_Enhance.mqh"
 #include "Meta_Equity/Stg_Meta_Equity.mqh"
