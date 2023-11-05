@@ -30,6 +30,7 @@
 #include "Meta_Hedge/Stg_Meta_Hedge.mqh"
 #include "Meta_Interval/Stg_Meta_Interval.mqh"
 #include "Meta_Limit/Stg_Meta_Limit.mqh"
+#include "Meta_MA_Conditions/Stg_Meta_MA_Conditions.mqh"
 #include "Meta_MA_Cross/Stg_Meta_MA_Cross.mqh"
 #include "Meta_Margin/Stg_Meta_Margin.mqh"
 #include "Meta_Martingale/Stg_Meta_Martingale.mqh"

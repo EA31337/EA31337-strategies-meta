@@ -31,6 +31,9 @@
 [submodule "Meta_Limit"]
 	path = Meta_Limit
 	url = https://github.com/EA31337/Strategy-Meta_Limit.git
+[submodule "Meta_MA_Conditions"]
+	path = Meta_MA_Conditions
+	url = https://github.com/EA31337/Strategy-Meta_MA_Conditions.git
 [submodule "Meta_MA_Cross"]
 	path = Meta_MA_Cross
 	url = https://github.com/EA31337/Strategy-Meta_MA_Cross.git

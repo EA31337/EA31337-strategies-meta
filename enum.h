@@ -33,6 +33,7 @@ enum ENUM_STRATEGY_META {
   STRAT_META_INTERVAL,        // (Meta) Interval
   STRAT_META_HEDGE,           // (Meta) Hedge
   STRAT_META_LIMIT,           // (Meta) Limit
+  STRAT_META_MA_CONDITIONS,   // (Meta) MA Conditions
   STRAT_META_MA_CROSS,        // (Meta) MA Cross
   STRAT_META_MARGIN,          // (Meta) Margin
   STRAT_META_MARTINGALE,      // (Meta) Martingale

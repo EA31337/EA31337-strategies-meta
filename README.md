@@ -58,6 +58,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) Hedge | [![check][ghim_s_meta_hedge_check]][ghlm_s_meta_hedge_check] | [![check][ghim_s_meta_hedge_compile]][ghlm_s_meta_hedge_compile] | [![check][ghim_s_meta_hedge_bt]][ghlm_s_meta_hedge_bt] |
 | (Meta) Interval | [![check][ghim_s_meta_interval_check]][ghlm_s_meta_interval_check] | [![check][ghim_s_meta_interval_compile]][ghlm_s_meta_interval_compile] | [![check][ghim_s_meta_interval_bt]][ghlm_s_meta_interval_bt] |
 | (Meta) Limit | [![check][ghim_s_meta_limit_check]][ghlm_s_meta_limit_check] | [![check][ghim_s_meta_limit_compile]][ghlm_s_meta_limit_compile] | [![check][ghim_s_meta_limit_bt]][ghlm_s_meta_limit_bt] |
+| (Meta) MA Conditions | [![check][ghim_s_meta_ma_conditions_check]][ghlm_s_meta_ma_conditions_check] | [![check][ghim_s_meta_ma_conditions_compile]][ghlm_s_meta_ma_conditions_compile] | [![check][ghim_s_meta_ma_conditions_bt]][ghlm_s_meta_ma_conditions_bt] |
 | (Meta) MA Cross | [![check][ghim_s_meta_ma_cross_check]][ghlm_s_meta_ma_cross_check] | [![check][ghim_s_meta_ma_cross_compile]][ghlm_s_meta_ma_cross_compile] | [![check][ghim_s_meta_ma_cross_bt]][ghlm_s_meta_ma_cross_bt] |
 | (Meta) Margin | [![check][ghim_s_meta_margin_check]][ghlm_s_meta_margin_check] | [![check][ghim_s_meta_margin_compile]][ghlm_s_meta_margin_compile] | [![check][ghim_s_meta_margin_bt]][ghlm_s_meta_margin_bt] |
 | (Meta) Martingale | [![check][ghim_s_meta_martingale_check]][ghlm_s_meta_martingale_check] | [![check][ghim_s_meta_martingale_compile]][ghlm_s_meta_martingale_compile] | [![check][ghim_s_meta_martingale_bt]][ghlm_s_meta_martingale_bt] |
@@ -102,6 +103,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) Interval | [![check][ghid_s_meta_interval_check]][ghld_s_meta_interval_check] | [![check][ghid_s_meta_interval_compile]][ghld_s_meta_interval_compile] | [![check][ghid_s_meta_interval_bt]][ghld_s_meta_interval_bt] |
 | (Meta) Hedge | [![check][ghid_s_meta_hedge_check]][ghld_s_meta_hedge_check] | [![check][ghid_s_meta_hedge_compile]][ghld_s_meta_hedge_compile] | [![check][ghid_s_meta_hedge_bt]][ghld_s_meta_hedge_bt] |
 | (Meta) Limit | [![check][ghid_s_meta_limit_check]][ghld_s_meta_limit_check] | [![check][ghid_s_meta_limit_compile]][ghld_s_meta_limit_compile] | [![check][ghid_s_meta_limit_bt]][ghld_s_meta_limit_bt] |
+| (Meta) MA Conditions | [![check][ghid_s_meta_ma_conditions_check]][ghld_s_meta_ma_conditions_check] | [![check][ghid_s_meta_ma_conditions_compile]][ghld_s_meta_ma_conditions_compile] | [![check][ghid_s_meta_ma_conditions_bt]][ghld_s_meta_ma_conditions_bt] |
 | (Meta) MA Cross | [![check][ghid_s_meta_ma_cross_check]][ghld_s_meta_ma_cross_check] | [![check][ghid_s_meta_ma_cross_compile]][ghld_s_meta_ma_cross_compile] | [![check][ghid_s_meta_ma_cross_bt]][ghld_s_meta_ma_cross_bt] |
 | (Meta) Margin | [![check][ghid_s_meta_margin_check]][ghld_s_meta_margin_check] | [![check][ghid_s_meta_margin_compile]][ghld_s_meta_margin_compile] | [![check][ghid_s_meta_margin_bt]][ghld_s_meta_margin_bt] |
 | (Meta) Martingale | [![check][ghid_s_meta_martingale_check]][ghld_s_meta_martingale_check] | [![check][ghid_s_meta_martingale_compile]][ghld_s_meta_martingale_compile] | [![check][ghid_s_meta_martingale_bt]][ghld_s_meta_martingale_bt] |
@@ -367,6 +369,20 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghid_s_meta_limit_compile]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_limit_bt]: https://github.com/EA31337/Strategy-Meta_Limit/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_ma_conditions_check]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/check.yml
+[ghim_s_meta_ma_conditions_check]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_ma_conditions_compile]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/compile.yml
+[ghim_s_meta_ma_conditions_compile]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_ma_conditions_bt]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/backtest.yml
+[ghim_s_meta_ma_conditions_bt]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_ma_conditions_check]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_ma_conditions_check]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_ma_conditions_compile]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_ma_conditions_compile]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_ma_conditions_bt]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_ma_conditions_bt]: https://github.com/EA31337/Strategy-Meta_MA_Conditions/actions/workflows/backtest.yml/badge.svg?branch=dev
 
 [ghlm_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml
 [ghim_s_meta_ma_cross_check]: https://github.com/EA31337/Strategy-Meta_MA_Cross/actions/workflows/check.yml/badge.svg
