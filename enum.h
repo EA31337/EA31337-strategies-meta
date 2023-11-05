@@ -43,28 +43,28 @@ enum ENUM_STRATEGY_META {
   // Supported for MQL5 only.
   STRAT_META_NEWS,  // (Meta) News
 #endif
-  STRAT_META_ODD_PERIOD,         // (Meta) Odd Period
-  STRAT_META_ORDER_LIMIT,        // (Meta) Order Limit
-  STRAT_META_OSCILLATOR_CONDITIONS, // (Meta) Oscillator Conditions
-  STRAT_META_OSCILLATOR_FILTER,  // (Meta) Oscillator Filter
-  STRAT_META_OSCILLATOR_SWITCH,  // (Meta) Oscillator Switch
-  STRAT_META_PATTERN,            // (Meta) Pattern
-  STRAT_META_PIVOT,              // (Meta) Pivot
-  STRAT_META_PROFIT,             // (Meta) Profit
-  STRAT_META_RESISTANCE,         // (Meta) Resistance
-  STRAT_META_REVERSAL,           // (Meta) Reversal
-  STRAT_META_RISK,               // (Meta) Risk
-  STRAT_META_RSI,                // (Meta) RSI
-  STRAT_META_SAR,                // (Meta) SAR
-  STRAT_META_SCALPER,            // (Meta) Scalper
-  STRAT_META_SIGNAL_FILTER,      // (Meta) Signal Filter
-  STRAT_META_SIGNAL_SWITCH,      // (Meta) Signal Switch
-  STRAT_META_SPREAD,             // (Meta) Spread
-  STRAT_META_TIMEZONE,           // (Meta) Timezone
-  STRAT_META_TREND,              // (Meta) Trend
-  STRAT_META_TRIO,               // (Meta) Trio
-  STRAT_META_VOLATILITY,         // (Meta) Volatility
-  STRAT_META_WEEKDAY,            // (Meta) Weekday
+  STRAT_META_ODD_PERIOD,             // (Meta) Odd Period
+  STRAT_META_ORDER_LIMIT,            // (Meta) Order Limit
+  STRAT_META_OSCILLATOR_CONDITIONS,  // (Meta) Oscillator Conditions
+  STRAT_META_OSCILLATOR_FILTER,      // (Meta) Oscillator Filter
+  STRAT_META_OSCILLATOR_SWITCH,      // (Meta) Oscillator Switch
+  STRAT_META_PATTERN,                // (Meta) Pattern
+  STRAT_META_PIVOT,                  // (Meta) Pivot
+  STRAT_META_PROFIT,                 // (Meta) Profit
+  STRAT_META_RESISTANCE,             // (Meta) Resistance
+  STRAT_META_REVERSAL,               // (Meta) Reversal
+  STRAT_META_RISK,                   // (Meta) Risk
+  STRAT_META_RSI,                    // (Meta) RSI
+  STRAT_META_SAR,                    // (Meta) SAR
+  STRAT_META_SCALPER,                // (Meta) Scalper
+  STRAT_META_SIGNAL_FILTER,          // (Meta) Signal Filter
+  STRAT_META_SIGNAL_SWITCH,          // (Meta) Signal Switch
+  STRAT_META_SPREAD,                 // (Meta) Spread
+  STRAT_META_TIMEZONE,               // (Meta) Timezone
+  STRAT_META_TREND,                  // (Meta) Trend
+  STRAT_META_TRIO,                   // (Meta) Trio
+  STRAT_META_VOLATILITY,             // (Meta) Volatility
+  STRAT_META_WEEKDAY,                // (Meta) Weekday
 };
 #define ENUM_STRATEGY_META_DEFINED
 #endif
