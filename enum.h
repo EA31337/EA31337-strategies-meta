@@ -54,6 +54,7 @@ enum ENUM_STRATEGY_META {
   STRAT_META_REVERSAL,           // (Meta) Reversal
   STRAT_META_RISK,               // (Meta) Risk
   STRAT_META_RSI,                // (Meta) RSI
+  STRAT_META_SAR,                // (Meta) SAR
   STRAT_META_SCALPER,            // (Meta) Scalper
   STRAT_META_SIGNAL_FILTER,      // (Meta) Signal Filter
   STRAT_META_SIGNAL_SWITCH,      // (Meta) Signal Switch

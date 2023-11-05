@@ -85,6 +85,9 @@
 [submodule "Meta_RSI"]
 	path = Meta_RSI
 	url = https://github.com/EA31337/Strategy-Meta_RSI.git
+[submodule "Meta_SAR"]
+	path = Meta_SAR
+	url = https://github.com/EA31337/Strategy-Meta_SAR.git
 [submodule "Meta_Scalper"]
 	path = Meta_Scalper
 	url = https://github.com/EA31337/Strategy-Meta_Scalper.git

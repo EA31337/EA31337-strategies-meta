@@ -45,6 +45,7 @@
 #include "Meta_Pivot/Stg_Meta_Pivot.mqh"
 #include "Meta_Profit/Stg_Meta_Profit.mqh"
 #include "Meta_RSI/Stg_Meta_RSI.mqh"
+#include "Meta_SAR/Stg_Meta_SAR.mqh"
 #include "Meta_Resistance/Stg_Meta_Resistance.mqh"
 #include "Meta_Reversal/Stg_Meta_Reversal.mqh"
 #include "Meta_Risk/Stg_Meta_Risk.mqh"
