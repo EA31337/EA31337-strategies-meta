@@ -48,6 +48,7 @@
 #include "Meta_Reversal/Stg_Meta_Reversal.mqh"
 #include "Meta_Risk/Stg_Meta_Risk.mqh"
 #include "Meta_Scalper/Stg_Meta_Scalper.mqh"
+#include "Meta_Signal_Filter/Stg_Meta_Signal_Filter.mqh"
 #include "Meta_Signal_Switch/Stg_Meta_Signal_Switch.mqh"
 #include "Meta_Spread/Stg_Meta_Spread.mqh"
 #include "Meta_Timezone/Stg_Meta_Timezone.mqh"
