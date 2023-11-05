@@ -67,6 +67,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) News | [![check][ghim_s_meta_news_check]][ghlm_s_meta_news_check] | [![check][ghim_s_meta_news_compile]][ghlm_s_meta_news_compile] | [![check][ghim_s_meta_news_bt]][ghlm_s_meta_news_bt] |
 | (Meta) Odd Period | [![check][ghim_s_meta_odd_period_check]][ghlm_s_meta_odd_period_check] | [![check][ghim_s_meta_odd_period_compile]][ghlm_s_meta_odd_period_compile] | [![check][ghim_s_meta_odd_period_bt]][ghlm_s_meta_odd_period_bt] |
 | (Meta) Order Limit | [![check][ghim_s_meta_order_limit_check]][ghlm_s_meta_order_limit_check] | [![check][ghim_s_meta_order_limit_compile]][ghlm_s_meta_order_limit_compile] | [![check][ghim_s_meta_order_limit_bt]][ghlm_s_meta_order_limit_bt] |
+| (Meta) Oscillator Conditions | [![check][ghim_s_meta_oscillator_conditions_check]][ghlm_s_meta_oscillator_conditions_check] | [![check][ghim_s_meta_oscillator_conditions_compile]][ghlm_s_meta_oscillator_conditions_compile] | [![check][ghim_s_meta_oscillator_conditions_bt]][ghlm_s_meta_oscillator_conditions_bt] |
 | (Meta) Oscillator Filter | [![check][ghim_s_meta_oscillator_filter_check]][ghlm_s_meta_oscillator_filter_check] | [![check][ghim_s_meta_oscillator_filter_compile]][ghlm_s_meta_oscillator_filter_compile] | [![check][ghim_s_meta_oscillator_filter_bt]][ghlm_s_meta_oscillator_filter_bt] |
 | (Meta) Oscillator Switch | [![check][ghim_s_meta_oscillator_switch_check]][ghlm_s_meta_oscillator_switch_check] | [![check][ghim_s_meta_oscillator_switch_compile]][ghlm_s_meta_oscillator_switch_compile] | [![check][ghim_s_meta_oscillator_switch_bt]][ghlm_s_meta_oscillator_switch_bt] |
 | (Meta) Pattern | [![check][ghim_s_meta_pattern_check]][ghlm_s_meta_pattern_check] | [![check][ghim_s_meta_pattern_compile]][ghlm_s_meta_pattern_compile] | [![check][ghim_s_meta_pattern_bt]][ghlm_s_meta_pattern_bt] |
@@ -110,6 +111,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) News | [![check][ghid_s_meta_news_check]][ghld_s_meta_news_check] | [![check][ghid_s_meta_news_compile]][ghld_s_meta_news_compile] | [![check][ghid_s_meta_news_bt]][ghld_s_meta_news_bt] |
 | (Meta) Odd Period | [![check][ghid_s_meta_odd_period_check]][ghld_s_meta_odd_period_check] | [![check][ghid_s_meta_odd_period_compile]][ghld_s_meta_odd_period_compile] | [![check][ghid_s_meta_odd_period_bt]][ghld_s_meta_odd_period_bt] |
 | (Meta) Order Limit | [![check][ghid_s_meta_order_limit_check]][ghld_s_meta_order_limit_check] | [![check][ghid_s_meta_order_limit_compile]][ghld_s_meta_order_limit_compile] | [![check][ghid_s_meta_order_limit_bt]][ghld_s_meta_order_limit_bt] |
+| (Meta) Oscillator Conditions | [![check][ghid_s_meta_oscillator_conditions_check]][ghld_s_meta_oscillator_conditions_check] | [![check][ghid_s_meta_oscillator_conditions_compile]][ghld_s_meta_oscillator_conditions_compile] | [![check][ghid_s_meta_oscillator_conditions_bt]][ghld_s_meta_oscillator_conditions_bt] |
 | (Meta) Oscillator Filter | [![check][ghid_s_meta_oscillator_filter_check]][ghld_s_meta_oscillator_filter_check] | [![check][ghid_s_meta_oscillator_filter_compile]][ghld_s_meta_oscillator_filter_compile] | [![check][ghid_s_meta_oscillator_filter_bt]][ghld_s_meta_oscillator_filter_bt] |
 | (Meta) Oscillator Switch | [![check][ghid_s_meta_oscillator_switch_check]][ghld_s_meta_oscillator_switch_check] | [![check][ghid_s_meta_oscillator_switch_compile]][ghld_s_meta_oscillator_switch_compile] | [![check][ghid_s_meta_oscillator_switch_bt]][ghld_s_meta_oscillator_switch_bt] |
 | (Meta) Pattern | [![check][ghid_s_meta_pattern_check]][ghld_s_meta_pattern_check] | [![check][ghid_s_meta_pattern_compile]][ghld_s_meta_pattern_compile] | [![check][ghid_s_meta_pattern_bt]][ghld_s_meta_pattern_bt] |
@@ -491,6 +493,20 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghid_s_meta_order_limit_compile]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_order_limit_bt]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_oscillator_conditions_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/check.yml
+[ghim_s_meta_oscillator_conditions_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_oscillator_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/compile.yml
+[ghim_s_meta_oscillator_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_oscillator_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/backtest.yml
+[ghim_s_meta_oscillator_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_oscillator_conditions_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_oscillator_conditions_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_oscillator_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_oscillator_conditions_compile]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_oscillator_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_oscillator_conditions_bt]: https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions/actions/workflows/backtest.yml/badge.svg?branch=dev
 
 [ghlm_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml
 [ghim_s_meta_oscillator_filter_check]: https://github.com/EA31337/Strategy-Meta_Oscillator_Filter/actions/workflows/check.yml/badge.svg

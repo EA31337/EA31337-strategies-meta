@@ -58,6 +58,9 @@
 [submodule "Meta_Order_Limit"]
 	path = Meta_Order_Limit
 	url = https://github.com/EA31337/Strategy-Meta_Order_Limit.git
+[submodule "Meta_Oscillator_Conditions"]
+	path = Meta_Oscillator_Conditions
+	url = https://github.com/EA31337/Strategy-Meta_Oscillator_Conditions.git
 [submodule "Meta_Oscillator_Filter"]
 	path = Meta_Oscillator_Filter
 	url = https://github.com/EA31337/Strategy-Meta_Oscillator_Filter.git

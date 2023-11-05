@@ -39,6 +39,7 @@
 #include "Meta_News/Stg_Meta_News.mqh"
 #include "Meta_Odd_Period/Stg_Meta_Odd_Period.mqh"
 #include "Meta_Order_Limit/Stg_Meta_Order_Limit.mqh"
+#include "Meta_Oscillator_Conditions/Stg_Meta_Oscillator_Conditions.mqh"
 #include "Meta_Oscillator_Filter/Stg_Meta_Oscillator_Filter.mqh"
 #include "Meta_Oscillator_Switch/Stg_Meta_Oscillator_Switch.mqh"
 #include "Meta_Pattern/Stg_Meta_Pattern.mqh"
