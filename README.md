@@ -65,6 +65,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) Multi | [![check][ghim_s_meta_multi_check]][ghlm_s_meta_multi_check] | [![check][ghim_s_meta_multi_compile]][ghlm_s_meta_multi_compile] | [![check][ghim_s_meta_multi_bt]][ghlm_s_meta_multi_bt] |
 | (Meta) Multi Currency | [![check][ghim_s_meta_multi_currency_check]][ghlm_s_meta_multi_currency_check] | [![check][ghim_s_meta_multi_currency_compile]][ghlm_s_meta_multi_currency_compile] | [![check][ghim_s_meta_multi_currency_bt]][ghlm_s_meta_multi_currency_bt] |
 | (Meta) News | [![check][ghim_s_meta_news_check]][ghlm_s_meta_news_check] | [![check][ghim_s_meta_news_compile]][ghlm_s_meta_news_compile] | [![check][ghim_s_meta_news_bt]][ghlm_s_meta_news_bt] |
+| (Meta) Odd Period | [![check][ghim_s_meta_odd_period_check]][ghlm_s_meta_odd_period_check] | [![check][ghim_s_meta_odd_period_compile]][ghlm_s_meta_odd_period_compile] | [![check][ghim_s_meta_odd_period_bt]][ghlm_s_meta_odd_period_bt] |
 | (Meta) Order Limit | [![check][ghim_s_meta_order_limit_check]][ghlm_s_meta_order_limit_check] | [![check][ghim_s_meta_order_limit_compile]][ghlm_s_meta_order_limit_compile] | [![check][ghim_s_meta_order_limit_bt]][ghlm_s_meta_order_limit_bt] |
 | (Meta) Oscillator Filter | [![check][ghim_s_meta_oscillator_filter_check]][ghlm_s_meta_oscillator_filter_check] | [![check][ghim_s_meta_oscillator_filter_compile]][ghlm_s_meta_oscillator_filter_compile] | [![check][ghim_s_meta_oscillator_filter_bt]][ghlm_s_meta_oscillator_filter_bt] |
 | (Meta) Oscillator Switch | [![check][ghim_s_meta_oscillator_switch_check]][ghlm_s_meta_oscillator_switch_check] | [![check][ghim_s_meta_oscillator_switch_compile]][ghlm_s_meta_oscillator_switch_compile] | [![check][ghim_s_meta_oscillator_switch_bt]][ghlm_s_meta_oscillator_switch_bt] |
@@ -106,6 +107,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) Multi | [![check][ghid_s_meta_multi_check]][ghld_s_meta_multi_check] | [![check][ghid_s_meta_multi_compile]][ghld_s_meta_multi_compile] | [![check][ghid_s_meta_multi_bt]][ghld_s_meta_multi_bt] |
 | (Meta) Multi Currency | [![check][ghid_s_meta_multi_currency_check]][ghld_s_meta_multi_currency_check] | [![check][ghid_s_meta_multi_currency_compile]][ghld_s_meta_multi_currency_compile] | [![check][ghid_s_meta_multi_currency_bt]][ghld_s_meta_multi_currency_bt] |
 | (Meta) News | [![check][ghid_s_meta_news_check]][ghld_s_meta_news_check] | [![check][ghid_s_meta_news_compile]][ghld_s_meta_news_compile] | [![check][ghid_s_meta_news_bt]][ghld_s_meta_news_bt] |
+| (Meta) Odd Period | [![check][ghid_s_meta_odd_period_check]][ghld_s_meta_odd_period_check] | [![check][ghid_s_meta_odd_period_compile]][ghld_s_meta_odd_period_compile] | [![check][ghid_s_meta_odd_period_bt]][ghld_s_meta_odd_period_bt] |
 | (Meta) Order Limit | [![check][ghid_s_meta_order_limit_check]][ghld_s_meta_order_limit_check] | [![check][ghid_s_meta_order_limit_compile]][ghld_s_meta_order_limit_compile] | [![check][ghid_s_meta_order_limit_bt]][ghld_s_meta_order_limit_bt] |
 | (Meta) Oscillator Filter | [![check][ghid_s_meta_oscillator_filter_check]][ghld_s_meta_oscillator_filter_check] | [![check][ghid_s_meta_oscillator_filter_compile]][ghld_s_meta_oscillator_filter_compile] | [![check][ghid_s_meta_oscillator_filter_bt]][ghld_s_meta_oscillator_filter_bt] |
 | (Meta) Oscillator Switch | [![check][ghid_s_meta_oscillator_switch_check]][ghld_s_meta_oscillator_switch_check] | [![check][ghid_s_meta_oscillator_switch_compile]][ghld_s_meta_oscillator_switch_compile] | [![check][ghid_s_meta_oscillator_switch_bt]][ghld_s_meta_oscillator_switch_bt] |
@@ -459,6 +461,20 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghid_s_meta_news_compile]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_news_bt]: https://github.com/EA31337/Strategy-Meta_News/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_odd_period_check]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/check.yml
+[ghim_s_meta_odd_period_check]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_odd_period_compile]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/compile.yml
+[ghim_s_meta_odd_period_compile]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_odd_period_bt]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/backtest.yml
+[ghim_s_meta_odd_period_bt]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_odd_period_check]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_odd_period_check]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_odd_period_compile]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_odd_period_compile]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_odd_period_bt]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_odd_period_bt]: https://github.com/EA31337/Strategy-Meta_Odd_Period/actions/workflows/backtest.yml/badge.svg?branch=dev
 
 [ghlm_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml
 [ghim_s_meta_order_limit_check]: https://github.com/EA31337/Strategy-Meta_Order_Limit/actions/workflows/check.yml/badge.svg

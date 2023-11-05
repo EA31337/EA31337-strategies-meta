@@ -43,6 +43,7 @@ enum ENUM_STRATEGY_META {
   // Supported for MQL5 only.
   STRAT_META_NEWS,  // (Meta) News
 #endif
+  STRAT_META_ODD_PERIOD,         // (Meta) Odd Period
   STRAT_META_ORDER_LIMIT,        // (Meta) Order Limit
   STRAT_META_OSCILLATOR_FILTER,  // (Meta) Oscillator Filter
   STRAT_META_OSCILLATOR_SWITCH,  // (Meta) Oscillator Switch
