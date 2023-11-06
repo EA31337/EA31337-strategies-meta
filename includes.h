@@ -45,6 +45,7 @@
 #include "Meta_Oscillator_Switch/Stg_Meta_Oscillator_Switch.mqh"
 #include "Meta_Pattern/Stg_Meta_Pattern.mqh"
 #include "Meta_Pivot/Stg_Meta_Pivot.mqh"
+#include "Meta_Price_Band/Stg_Meta_Price_Band.mqh"
 #include "Meta_Profit/Stg_Meta_Profit.mqh"
 #include "Meta_RSI/Stg_Meta_RSI.mqh"
 #include "Meta_Resistance/Stg_Meta_Resistance.mqh"

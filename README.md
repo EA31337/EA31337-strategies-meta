@@ -73,6 +73,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) Oscillator Switch | [![check][ghim_s_meta_oscillator_switch_check]][ghlm_s_meta_oscillator_switch_check] | [![check][ghim_s_meta_oscillator_switch_compile]][ghlm_s_meta_oscillator_switch_compile] | [![check][ghim_s_meta_oscillator_switch_bt]][ghlm_s_meta_oscillator_switch_bt] |
 | (Meta) Pattern | [![check][ghim_s_meta_pattern_check]][ghlm_s_meta_pattern_check] | [![check][ghim_s_meta_pattern_compile]][ghlm_s_meta_pattern_compile] | [![check][ghim_s_meta_pattern_bt]][ghlm_s_meta_pattern_bt] |
 | (Meta) Pivot | [![check][ghim_s_meta_pivot_check]][ghlm_s_meta_pivot_check] | [![check][ghim_s_meta_pivot_compile]][ghlm_s_meta_pivot_compile] | [![check][ghim_s_meta_pivot_bt]][ghlm_s_meta_pivot_bt] |
+| (Meta) Price Band | [![check][ghim_s_meta_price_band_check]][ghlm_s_meta_price_band_check] | [![check][ghim_s_meta_price_band_compile]][ghlm_s_meta_price_band_compile] | [![check][ghim_s_meta_price_band_bt]][ghlm_s_meta_price_band_bt] |
 | (Meta) Profit | [![check][ghim_s_meta_profit_check]][ghlm_s_meta_profit_check] | [![check][ghim_s_meta_profit_compile]][ghlm_s_meta_profit_compile] | [![check][ghim_s_meta_profit_bt]][ghlm_s_meta_profit_bt] |
 | (Meta) Resistance | [![check][ghim_s_meta_resistance_check]][ghlm_s_meta_resistance_check] | [![check][ghim_s_meta_resistance_compile]][ghlm_s_meta_resistance_compile] | [![check][ghim_s_meta_resistance_bt]][ghlm_s_meta_resistance_bt] |
 | (Meta) Reversal | [![check][ghim_s_meta_reversal_check]][ghlm_s_meta_reversal_check] | [![check][ghim_s_meta_reversal_compile]][ghlm_s_meta_reversal_compile] | [![check][ghim_s_meta_reversal_bt]][ghlm_s_meta_reversal_bt] |
@@ -118,6 +119,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 | (Meta) Oscillator Switch | [![check][ghid_s_meta_oscillator_switch_check]][ghld_s_meta_oscillator_switch_check] | [![check][ghid_s_meta_oscillator_switch_compile]][ghld_s_meta_oscillator_switch_compile] | [![check][ghid_s_meta_oscillator_switch_bt]][ghld_s_meta_oscillator_switch_bt] |
 | (Meta) Pattern | [![check][ghid_s_meta_pattern_check]][ghld_s_meta_pattern_check] | [![check][ghid_s_meta_pattern_compile]][ghld_s_meta_pattern_compile] | [![check][ghid_s_meta_pattern_bt]][ghld_s_meta_pattern_bt] |
 | (Meta) Pivot | [![check][ghid_s_meta_pivot_check]][ghld_s_meta_pivot_check] | [![check][ghid_s_meta_pivot_compile]][ghld_s_meta_pivot_compile] | [![check][ghid_s_meta_pivot_bt]][ghld_s_meta_pivot_bt] |
+| (Meta) Price Band | [![check][ghid_s_meta_price_band_check]][ghld_s_meta_price_band_check] | [![check][ghid_s_meta_price_band_compile]][ghld_s_meta_price_band_compile] | [![check][ghid_s_meta_price_band_bt]][ghld_s_meta_price_band_bt] |
 | (Meta) Profit | [![check][ghid_s_meta_profit_check]][ghld_s_meta_profit_check] | [![check][ghid_s_meta_profit_compile]][ghld_s_meta_profit_compile] | [![check][ghid_s_meta_profit_bt]][ghld_s_meta_profit_bt] |
 | (Meta) Resistance | [![check][ghid_s_meta_resistance_check]][ghld_s_meta_resistance_check] | [![check][ghid_s_meta_resistance_compile]][ghld_s_meta_resistance_compile] | [![check][ghid_s_meta_resistance_bt]][ghld_s_meta_resistance_bt] |
 | (Meta) Reversal | [![check][ghid_s_meta_reversal_check]][ghld_s_meta_reversal_check] | [![check][ghid_s_meta_reversal_compile]][ghld_s_meta_reversal_compile] | [![check][ghid_s_meta_reversal_bt]][ghld_s_meta_reversal_bt] |
@@ -607,6 +609,20 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghid_s_meta_pivot_compile]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml?branch=dev
 [ghid_s_meta_pivot_bt]: https://github.com/EA31337/Strategy-Meta_Pivot/actions/workflows/backtest.yml/badge.svg?branch=dev
+
+[ghlm_s_meta_price_band_check]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/check.yml
+[ghim_s_meta_price_band_check]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/check.yml/badge.svg
+[ghlm_s_meta_price_band_compile]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/compile.yml
+[ghim_s_meta_price_band_compile]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/compile.yml/badge.svg
+[ghlm_s_meta_price_band_bt]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/backtest.yml
+[ghim_s_meta_price_band_bt]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/backtest.yml/badge.svg
+
+[ghld_s_meta_price_band_check]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/check.yml?branch=dev
+[ghid_s_meta_price_band_check]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/check.yml/badge.svg?branch=dev
+[ghld_s_meta_price_band_compile]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/compile.yml?branch=dev
+[ghid_s_meta_price_band_compile]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/compile.yml/badge.svg?branch=dev
+[ghld_s_meta_price_band_bt]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/backtest.yml?branch=dev
+[ghid_s_meta_price_band_bt]: https://github.com/EA31337/Strategy-Meta_Price_Band/actions/workflows/backtest.yml/badge.svg?branch=dev
 
 [ghlm_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml
 [ghim_s_meta_profit_check]: https://github.com/EA31337/Strategy-Meta_Profit/actions/workflows/check.yml/badge.svg
