@@ -38,7 +38,7 @@ jobs:
     name: Checkout Strategies repo
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.3
+      - uses: actions/checkout@v4
         with:
           ref: dev
           repository: EA31337/EA31337-strategies
@@ -52,7 +52,7 @@ jobs:
     name: Checkout Strategies Meta repo
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.1.3
+      - uses: actions/checkout@v4
         with:
           submodules: recursive
       - name: Uploads source code
@@ -78,12 +78,17 @@ jobs:
       skip_cleanup: true
       version: 5
 
-  compile-mql4:
+  compile:
     defaults:
       run:
         shell: powershell
-    name: Compile MQL4
-    needs: [checkout-classes, checkout-strategies, mt4]
+    name: Compile
+    needs:
+      - checkout-classes
+      - checkout-strategies
+      - checkout-strategies-meta
+      - mt4
+      - mt5
     runs-on: windows-latest
     steps:
       - uses: actions/download-artifact@v4
@@ -100,58 +105,36 @@ jobs:
           path: Include/EA31337-classes
       - uses: actions/download-artifact@v4
         with:
-          pattern: .mt?
-      - name: Compile for MQL4
+          pattern: .mt${{ matrix.version }}
+      - name: Compile meta strategies
         uses: fx31337/mql-compile-action@master
         with:
           include: .
-          mt-path: .mt4
-          path: "*/Stg_*.mq4"
+          mt-path: .mt${{ matrix.version }}
+          path: "*/Stg_Meta_*.mq${{ matrix.version }}"
           verbose: true
       - name: List compiled files
-        run: '(Get-ChildItem -Recurse -Path . -Include *.ex[45]).fullname'
+        run: (Get-ChildItem -Recurse -Path . -Include *.ex[45]).fullname
       - run: Get-Location
-
-  compile-mql5:
-    defaults:
-      run:
-        shell: powershell
-    name: Compile MQL5
-    needs: [checkout-classes, checkout-strategies, mt5]
-    runs-on: windows-latest
-    steps:
-      - uses: actions/download-artifact@v4
-        with:
-          name: src-strategies-meta
-          path: .
-      - uses: actions/download-artifact@v4
-        with:
-          name: src-strategies
-          path: Include/EA31337-strategies
-      - uses: actions/download-artifact@v4
-        with:
-          name: src-classes
-          path: Include/EA31337-classes
-      - uses: actions/download-artifact@v4
-        with:
-          pattern: .mt?
-      - name: Compile for MQL5
-        uses: fx31337/mql-compile-action@master
-        with:
-          include: .
-          mt-path: .mt5
-          path: "*/Stg_*.mq5"
-          verbose: true
-      - name: List compiled files
-        run: '(Get-ChildItem -Recurse -Path . -Include *.ex[45]).fullname'
-      - run: Get-Location
+    strategy:
+      matrix:
+        version:
+          - 4
+          - 5
+      max-parallel: 2
+    timeout-minutes: 20
 
   compile-test:
     defaults:
       run:
         shell: powershell
     name: Compile Test
-    needs: [checkout-classes, checkout-strategies, mt4, mt5]
+    needs:
+      - checkout-classes
+      - checkout-strategies
+      - checkout-strategies-meta
+      - mt4
+      - mt5
     runs-on: windows-latest
     steps:
       - uses: actions/download-artifact@v4
