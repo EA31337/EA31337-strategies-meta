@@ -40,7 +40,7 @@ See: <https://ea31337.github.io/EA31337-strategies>
 
 | Tag      | Framework |
 |:--------:|:---------:|
-| v2.000   | v3.000.1  |
+| v2.000   | v3.000.2  |
 
 ## Status
 
@@ -173,7 +173,7 @@ these TERMS OF USE and that you agree to be bound by such Terms of Use ("License
 
 ### Copyright information
 
-Copyright © 2016-2023 - EA31337 Ltd - All Rights Reserved
+Copyright © 2016-2024 - EA31337 Ltd - All Rights Reserved
 
 Author & Publisher: kenorb at EA31337 Ltd.
 
