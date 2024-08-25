@@ -4,6 +4,8 @@
 [![Channel][tg-channel-image]][tg-channel-link]
 [![Twitter][twitter-image]][twitter-link]
 [![Discuss][gh-discuss-badge]][gh-discuss-link]
+[![X][x-pimage]][x-plink]
+[![X][x-cimage]][x-clink]
 [![Status][gha-image-check-master]][gha-link-check-master]
 [![Status][gha-image-compile-master]][gha-link-compile-master]
 [![License][license-image]][license-link]
@@ -805,3 +807,8 @@ NO REPRESENTATION IS BEING MADE THAN ANY ACCOUNT WILL OR IS LIKELY TO ACHIEVE PR
 [ghid_s_meta_weekday_compile]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/compile.yml/badge.svg?branch=dev
 [ghld_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/test.yml?branch=dev
 [ghid_s_meta_weekday_bt]: https://github.com/EA31337/Strategy-Meta_Weekday/actions/workflows/test.yml/badge.svg?branch=dev
+
+[x-cimage]: https://img.shields.io/badge/EA31337-Join-1DA1F2.svg?logo=X
+[x-clink]: https://twitter.com/i/communities/1700228512274174098
+[x-pimage]: https://img.shields.io/badge/EA31337-Follow-1DA1F2.svg?logo=X
+[x-plink]: https://x.com/EA31337
