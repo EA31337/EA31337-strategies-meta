@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                  EA31337 - multi-strategy advanced trading robot |
-//|                                 Copyright 2016-2023, EA31337 Ltd |
+//|                                 Copyright 2016-2024, EA31337 Ltd |
 //|                                       https://github.com/EA31337 |
 //+------------------------------------------------------------------+
 
@@ -52,6 +52,8 @@ class StrategiesMetaManager {
     switch (_sid) {
       case STRAT_META_BEARS_BULLS:  // (Meta) Bears & Bulls
         return StrategyInit<Stg_Meta_Bears_Bulls>(_tf);
+      case STRAT_META_DISCREPANCY:  // (Meta) Discrepancy
+        return StrategyInit<Stg_Meta_Discrepancy>(_tf);
       case STRAT_META_DOUBLE:  // (Meta) Double
         return StrategyInit<Stg_Meta_Double>(_tf);
       case STRAT_META_CONDITIONS:  // (Meta) Conditions
@@ -80,8 +82,11 @@ class StrategiesMetaManager {
         return StrategyInit<Stg_Meta_Multi>(_tf);
       case STRAT_META_MULTI_CURRENCY:  // (Meta) Multi Currency
         return StrategyInit<Stg_Meta_Multi_Currency>(_tf);
+#ifdef __MQL5__
+      // Supported for MQL5 only.
       case STRAT_META_NEWS:  // (Meta) News
         return StrategyInit<Stg_Meta_News>(_tf);
+#endif
       case STRAT_META_ORDER_LIMIT:  // (Meta) Order Limit
         return StrategyInit<Stg_Meta_Order_Limit>(_tf);
       case STRAT_META_OSCILLATOR_FILTER:  // (Meta) Oscillator Filter
@@ -102,10 +107,14 @@ class StrategiesMetaManager {
         return StrategyInit<Stg_Meta_Risk>(_tf);
       case STRAT_META_RSI:  // (Meta) RSI
         return StrategyInit<Stg_Meta_RSI>(_tf);
+      case STRAT_META_SAR:  // (Meta) SAR
+        return StrategyInit<Stg_Meta_SAR>(_tf);
       case STRAT_META_SCALPER:  // (Meta) Scalper
         return StrategyInit<Stg_Meta_Scalper>(_tf);
       case STRAT_META_SIGNAL_SWITCH:  // (Meta) Signal Switch
         return StrategyInit<Stg_Meta_Signal_Switch>(_tf);
+      case STRAT_META_SIGNAL_FILTER:  // (Meta) Signal Filter
+        return StrategyInit<Stg_Meta_Signal_Filter>(_tf);
       case STRAT_META_SPREAD:  // (Meta) Spread
         return StrategyInit<Stg_Meta_Spread>(_tf);
       case STRAT_META_TIMEZONE:  // (Meta) Timezone

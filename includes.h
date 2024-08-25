@@ -1,6 +1,6 @@
 //+------------------------------------------------------------------+
 //|                  EA31337 - multi-strategy advanced trading robot |
-//|                                 Copyright 2016-2023, EA31337 Ltd |
+//|                                 Copyright 2016-2024, EA31337 Ltd |
 //|                                       https://github.com/EA31337 |
 //+------------------------------------------------------------------+
 
@@ -22,6 +22,7 @@
 // Includes strategy meta classes.
 #include "Meta_Bears_Bulls/Stg_Meta_Bears_Bulls.mqh"
 #include "Meta_Conditions/Stg_Meta_Conditions.mqh"
+#include "Meta_Discrepancy/Stg_Meta_Discrepancy.mqh"
 #include "Meta_Double/Stg_Meta_Double.mqh"
 #include "Meta_Enhance/Stg_Meta_Enhance.mqh"
 #include "Meta_Equity/Stg_Meta_Equity.mqh"
@@ -29,6 +30,7 @@
 #include "Meta_Hedge/Stg_Meta_Hedge.mqh"
 #include "Meta_Interval/Stg_Meta_Interval.mqh"
 #include "Meta_Limit/Stg_Meta_Limit.mqh"
+#include "Meta_MA_Conditions/Stg_Meta_MA_Conditions.mqh"
 #include "Meta_MA_Cross/Stg_Meta_MA_Cross.mqh"
 #include "Meta_Margin/Stg_Meta_Margin.mqh"
 #include "Meta_Martingale/Stg_Meta_Martingale.mqh"
@@ -36,17 +38,22 @@
 #include "Meta_Multi/Stg_Meta_Multi.mqh"
 #include "Meta_Multi_Currency/Stg_Meta_Multi_Currency.mqh"
 #include "Meta_News/Stg_Meta_News.mqh"
+#include "Meta_Odd_Period/Stg_Meta_Odd_Period.mqh"
 #include "Meta_Order_Limit/Stg_Meta_Order_Limit.mqh"
+#include "Meta_Oscillator_Conditions/Stg_Meta_Oscillator_Conditions.mqh"
 #include "Meta_Oscillator_Filter/Stg_Meta_Oscillator_Filter.mqh"
 #include "Meta_Oscillator_Switch/Stg_Meta_Oscillator_Switch.mqh"
 #include "Meta_Pattern/Stg_Meta_Pattern.mqh"
 #include "Meta_Pivot/Stg_Meta_Pivot.mqh"
+#include "Meta_Price_Band/Stg_Meta_Price_Band.mqh"
 #include "Meta_Profit/Stg_Meta_Profit.mqh"
 #include "Meta_RSI/Stg_Meta_RSI.mqh"
 #include "Meta_Resistance/Stg_Meta_Resistance.mqh"
 #include "Meta_Reversal/Stg_Meta_Reversal.mqh"
 #include "Meta_Risk/Stg_Meta_Risk.mqh"
+#include "Meta_SAR/Stg_Meta_SAR.mqh"
 #include "Meta_Scalper/Stg_Meta_Scalper.mqh"
+#include "Meta_Signal_Filter/Stg_Meta_Signal_Filter.mqh"
 #include "Meta_Signal_Switch/Stg_Meta_Signal_Switch.mqh"
 #include "Meta_Spread/Stg_Meta_Spread.mqh"
 #include "Meta_Timezone/Stg_Meta_Timezone.mqh"
